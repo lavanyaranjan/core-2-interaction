@@ -1,3 +1,58 @@
 html {
-    color: purple;
+    background-color: #E6d1d1;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    margin: 25px;
+    padding: auto;
+}
+
+.Header-title {
+    margin-left: 75px;
+}
+
+nav {
+    margin-left: 25px;
+}
+
+h1, h2 {
+    color: #5e0808;
+    margin-left: 25px;
+}
+
+h3, h4, h5, h6 {
+    color: #3b0303;
+    margin-left: 25px;
+}
+
+.Meta {
+    margin-left: 50px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+ol, ul {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    transform: translate(100%);
+}
+
+.Fieldset--stylesheet {
+    text-align: center;
+    margin: 50px;
+}
+
+footer {
+    text-align: center;
+    margin: 25px;
 }
