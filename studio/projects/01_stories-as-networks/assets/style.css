@@ -1,16 +1,24 @@
 /* general styles */
 html {
-    background-color: orangered;
-    color: black;
-}
-
-h1, h2, p {
-    margin: 0;
+    background-color: #3B2D23;
+    color: #DDCFC4;
+    font-family: "Glegoo", serif;
 }
 
 body{
-    max-width: 600px;
+    max-width: 1200px;
     margin: auto;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);}
+
+p{
+    max-width: 830px;
+    text-align: center;
 }
 
 /* main header */
@@ -18,36 +26,6 @@ body{
     text-align: center;
     font-style: italic;
     margin-top: 50px;
-}
-
-/* Part */
-.Part {
-    background-color: orange;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 50px 0px 50px 0;
-}
-
-#PartOne {
-    background-color: black;
-    color: grey;
-}
-
-#PartFive {
-    background-color: antiquewhite;
-    color: brown;
-}
-
-img, audio, video, object {
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-    display: block;
-    margin-top: 10px;
-}
-
-object {
-    aspect-ratio: 4/3;
 }
 
 /* Nav */

@@ -1,0 +1,133 @@
+/* page 1 - draft 2 */
+
+body {
+    position: relative;
+    background: #866E5D;
+}
+
+/* The universe (which others call the Library) is composed of an indefinite and perhaps infinite number of hexagonal galleries, with vast air shafts between, surrounded by very low railings. From any of the hexagons one can see, interminably, */
+
+.part1 {
+    position: absolute;
+    max-width: 400px;
+    height: 115px;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+/* or 147% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #DDCFC4;
+}
+
+/* The distribution of the galleries is invariable. Twenty shelves, five long shelves per side, cover all the sides except two; their height, which is the distance from floor to ceiling, scarcely exceeds that of a normal bookcase. One of the free sides leads to a narrow hallway which opens onto another gallery, identical to the first and to all the rest. */
+
+.part2 {
+    position: absolute;
+    max-width: 400px;
+    height: 180px;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+/* or 147% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #DDCFC4;
+}
+
+/* upper */
+
+.upper {
+    position: absolute;
+    max-width: 388px;
+    height: 83px;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DDCFC4;
+}
+
+/* and */
+
+.and {
+    position: absolute;
+    max-width: 388px;
+    height: 83px;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+/* or 110% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DDCFC4;
+}
+
+/* lower */
+
+.lower {
+    position: absolute;
+    max-width: 388px;
+    height: 83px;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+/* or 110% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DDCFC4;
+}
+
+/* Nav */
+.Nav {
+    position: sticky;
+    text-align: center;
+}
+
+.Nav a {
+    color: #Dcc4b4;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.Nav-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.Nav-item {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: #Dcc4b4 solid 1px;
+    border-radius: 20px;
+}
+
+#home {
+    background-color: #6a5444;
+    border: #6a5444 solid 1px;
+}

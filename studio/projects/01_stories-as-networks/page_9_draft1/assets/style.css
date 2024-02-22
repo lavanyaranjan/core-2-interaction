@@ -1,6 +1,6 @@
 /* general styles */
 html {
-    background-color: #785C48;
+    background-color: #866E5D;
     color: #DDCFC4;
     font-family: "Glegoo", serif;
 }
@@ -14,39 +14,44 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.PartOne {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10%);
+}
+
+.PartTwo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translateX(-50%) translateY(10%);
-    max-width: 830px;
-    text-align: center;
+}
+
+.grid-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.grid-item {
+    font-size: 15px; 
+    line-height: 22px;
+    padding: auto;
+    text-align: justify;
 }
 
 p{
     max-width: 830px;
     text-align: center;
-}
-
-.div1 {
-    font-size: 15px;
-    line-height: 22px;
-    animation: fadeIn 5s ease-in forwards;
-    animation-delay: 3s;
-}
-
-.div2 {
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: fadeIn 5s ease-in forwards;
-    animation-delay: 3s;
-}
-
-.div3 {
-    font-size: 20px;
-    line-height: 25px;
-    transform: rotateX('-180');
-    transform: rotateX(180deg);
-    color: #CCB29E;
 }
 
 /* main header */
@@ -91,13 +96,4 @@ p{
 #home {
     background-color: #6a5444;
     border: #6a5444 solid 1px;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
