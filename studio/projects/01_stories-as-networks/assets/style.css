@@ -14,11 +14,189 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);}
+    transform: translateX(-50%) translateY(-50%);
+}
 
 p{
-    max-width: 830px;
     text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 250px;
+}
+
+.pages {
+    color: #DDCFC4;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 300px; 
+    height: auto; 
+}
+
+a {
+    color: #DDCFC4;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#page_1 {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+}
+
+#page_2 {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+}
+
+#page_3 {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+}
+
+#page_4 {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+#page_5 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+#page_6 {
+    position: fixed;
+    top: 60%;
+    left: 60%;
+}
+
+#page_7 {
+    position: fixed;
+    top: 70%;
+    left: 70%;
+}
+
+#page_8 {
+    position: fixed;
+    top: 80%;
+    left: 80%;
+}
+
+#page_9 {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
+
+#page_10 {
+    position: fixed;
+    top: 10%;
+    left: 80%;
+}
+
+#page_11 {
+    position: fixed;
+    top: 20%;
+    left: 70%;
+}
+
+#page_12 {
+    position: fixed;
+    top: 30%;
+    left: 60%;
+}
+
+#page_13 {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+}
+
+#page_14 {
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
+
+#page_15 {
+    position: fixed;
+    top: 60%;
+    left: 30%;
+}
+
+#page_16 {
+    position: fixed;
+    top: 70%;
+    left: 20%;
+}
+
+#page_17 {
+    position: fixed;
+    top: 80%;
+    left: 10%;
+}
+
+#page_18 {
+    position: fixed;
+    top: 90%;
+    left: 20%;
+}
+
+#page_19 {
+    position: fixed;
+    top: 80%;
+    left: 30%;
+}
+
+#page_20 {
+    position: fixed;
+    top: 70%;
+    left: 40%;
+}
+
+#page_21 {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+}
+
+#page_22 {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+}
+
+#page_23 {
+    position: fixed;
+    top: 40%;
+    left: 70%;
+}
+
+#page_24 {
+    position: fixed;
+    top: 30%;
+    left: 80%;
+}
+
+#page_25 {
+    position: fixed;
+    top: 20%;
+    left: 90%;
 }
 
 /* main header */
