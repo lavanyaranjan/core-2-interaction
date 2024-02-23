@@ -14,7 +14,10 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-40%);}
+    transform: translateX(-50%) translateY(-40%);
+    animation: fadeIn 5s ease-in forwards;
+    animation-delay: 3s;
+}
 
 p{
     max-width: 675px;
@@ -77,4 +80,13 @@ p{
 #home {
     background-color: #6a5444;
     border: #6a5444 solid 1px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

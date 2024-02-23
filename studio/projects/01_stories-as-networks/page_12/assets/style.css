@@ -14,7 +14,9 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-5%) translateY(-50%);}
+    transform: translateX(-5%) translateY(-50%);
+    animation: slideInFromLeft 3s ease forwards;
+}
 
 p{
     max-width: 545px;
@@ -65,4 +67,13 @@ p{
 #home {
     background-color: #6a5444;
     border: #6a5444 solid 1px;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
