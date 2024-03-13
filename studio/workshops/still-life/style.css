@@ -1,0 +1,132 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: #ce4425;;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.computer {
+  width: 24.5vw;
+  height: 29vw;
+  background-image: radial-gradient(circle at 35% 35%, #ffffff 15%, #f6deab);
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  border-radius: 15px;
+}
+
+.keyboard {
+  display: block;
+  border-bottom: 7vw solid #dec99a;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-radius: 15px;
+  width: 39vw;
+  position: absolute;
+  top: 70%;
+  Left: 30%;
+  box-shadow: inset 5px 5px 20px #00000080, 0px 0px 0px #0000004d, inset 10px 10px 50px #ffffff80;
+}
+
+.globe {
+  width: 23vw;
+  height: 23vw;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 13%;
+  background: radial-gradient(circle at 70% 40%, #fde2c7cc 50%, #000000cc 100%), radial-gradient(ellipse at top, #fde2c7cc 0%, #fde2c7cc 100%);
+  box-shadow: inset 5px 15px 20px #ffffff80, -10px 10px 20px #0000004d, inset 10px -30px 20px #00000080;
+  z-index: 1;
+}
+
+.orange1 {
+  width: 10vw;
+  height: 10vw;
+  background: radial-gradient(circle at 70% 40%, #d0792c 50%, rgba(0, 0, 0, 0.8) 100%), radial-gradient(ellipse at top, #d0792c 0%, #d0792c 100%);
+  box-shadow: inset 5px 15px 20px #ff9900b6, -10px 10px 20px #0000004d, inset 10px -30px 20px #c6480e;
+  position: absolute;
+  border-radius: 50%;
+  top: 77%;
+  Left: 30%;
+  z-index: 1;
+}
+
+.orange2 {
+  width: 10vw;
+  height: 10vw;
+  background: radial-gradient(circle at 10% 10%, #d0792c 50%, #780000cc 100%), radial-gradient(ellipse at top, #d0792c 0%, #d0792c 100%);
+  box-shadow: inset 5px 15px 20px #ff990071, -10px 10px 20px #00000027, inset 10px -30px 20px #c6480e;
+  position: absolute;
+  border-radius: 50%;
+  top: 5%;
+  Left: 57%;
+  z-index: 1;
+}
+
+.bottle {
+  display: block;
+  width: 16vw;
+  height: 25vw;
+  background-color: #ffffffc0;
+  position: absolute;
+  border-radius: 60vw 60vw 90vw 90vw / 60vw 60vw 40vw 40vw;
+  top: 48%;
+  Left: 70%;
+  background: radial-gradient(circle at 95% 10%, #edd5cc 0%, #ffffff00 100%), radial-gradient(ellipse at top, #edd5cc 60%, #ffffff00 100%);
+  box-shadow: -10px 10px 20px #0000004d;
+  z-index: 1;
+}
+
+.bottle-neck {
+  display: block;
+  width: 9vw;
+  height: 8vw;
+  background-color: #ffffffab;
+  position: absolute;
+  border-radius: 60vw 60vw 40vw 40vw / 10vw 10vw 100vw 100vw;
+  top: 36%;
+  Left: 73.5%;
+  background: radial-gradient(circle at 95% 10%, #edd5cc 0%, #ffffff00 100%), radial-gradient(ellipse at top, #edd5cc 20%, #ffffff00 100%);
+  box-shadow: -10px 10px 5px #00000012;
+  z-index: 1;
+  opacity: 90%;
+}
+
+.cork {
+  display: block;
+  width: 7vw;
+  height: 6vw;
+  position: absolute;
+  border-radius: 60vw 60vw 40vw 40vw / 10vw 10vw 100vw 100vw;
+  top: 34%;
+  Left: 74.5%;
+  background: radial-gradient(circle at 15% 15%, #6c3505cc 50%, #dc54001a 100%), radial-gradient(ellipse at top, #4b2300 0%, #5329041a 100%);
+  box-shadow: inset 5px 15px 20px #6b270071, -10px 10px 20px #00000027, inset 10px -30px 20px #65230059;
+}
+
+.screen {
+  width: 22vw;
+  height: 22vw;
+  background-image: radial-gradient(circle at 30% 30%, #636363 2%, #000000);
+  border-radius: 10px;
+  position: absolute;
+  left: 41.5%;
+  top: 24%;
+}
