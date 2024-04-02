@@ -25,19 +25,21 @@ function sortTable(id, column) {
     var tbody = table.querySelector('tbody');
     var rows = Array.from(tbody.rows);
     rows.sort((a, b) => {
-        var aValue = a.cells[column === 'cooking_time' ? 3 : 2].textContent;
-        var bValue = b.cells[column === 'cooking_time' ? 3 : 2].textContent;
-        return column === 'cooking_time' ? timeStringToMinutes(aValue) - timeStringToMinutes(bValue) : parseInt(aValue) - parseInt(bValue);
+        var aValue = a.cells[column === 'cooking_time' ? 2 : 1].textContent;
+        var bValue = b.cells[column === 'cooking_time' ? 2 : 1].textContent;
+        return column === 'cooking_time' ? timeStringToMinutes(getTimeFromLink(aValue)) - timeStringToMinutes(getTimeFromLink(bValue)) : parseInt(aValue) - parseInt(bValue);
     });
     rows.forEach(row => tbody.appendChild(row));
 }
 
-// Function to convert cooking time string to minutes for sorting
-function timeStringToMinutes(timeString) {
-    var parts = timeString.split('-');
-    var min = parseInt(parts[0]);
-    var max = parseInt(parts[1]);
-    return (min + max) / 2; // Return average time for sorting
+// Function to extract cooking time from link text
+function getTimeFromLink(linkText) {
+    var regex = /(\d+-\d+)/; // Regular expression to match "0-15 mins"
+    var match = linkText.match(regex);
+    if (match) {
+        return match[0];
+    }
+    return '0-0'; // Return a default value if no match is found
 }
 
 // Create tables for each flavour
