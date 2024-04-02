@@ -104,10 +104,6 @@ button {
     border:rgb(172, 43, 43)
 }
 
-button:hover {
-    font-size: 30px;
-}
-
 h3 {
     font-size: 64px;
 }
@@ -120,5 +116,5 @@ marquee {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color:rgb(172, 43, 43);
+    color:rgb(200, 68, 68);
 }

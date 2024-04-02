@@ -19,6 +19,14 @@ function createTable(id, recipes) {
     table.appendChild(tbody);
 }
 
+// Function to convert a time string in the format "0-15 mins" to minutes
+function timeStringToMinutes(timeString) {
+    var parts = timeString.split('-');
+    var lowerBound = parseInt(parts[0]);
+    var upperBound = parseInt(parts[1]);
+    return (lowerBound + upperBound) / 2; // Return the average of the lower and upper bounds
+}
+
 // Function to sort the table by the given column
 function sortTable(id, column) {
     var table = document.getElementById(id);
@@ -47,3 +55,17 @@ createTable('spicy', data.filter(recipe => recipe.flavour === 'Spicy'));
 createTable('savoury', data.filter(recipe => recipe.flavour === 'Savoury'));
 createTable('sweet', data.filter(recipe => recipe.flavour === 'Sweet'));
 createTable('tangy', data.filter(recipe => recipe.flavour === 'Tangy'));
+
+// Generic sort function for all tables
+function sortTable(id, column) {
+    var table = document.getElementById(id);
+    var tbody = table.querySelector('tbody');
+    var rows = Array.from(tbody.rows);
+    rows.sort((a, b) => {
+        var aValue = a.cells[column === 'cooking_time' ? 2 : 1].textContent;
+        var bValue = b.cells[column === 'cooking_time' ? 2 : 1].textContent;
+        return column === 'cooking_time' ? timeStringToMinutes(aValue) - timeStringToMinutes(bValue) : parseInt(aValue) - parseInt(bValue);
+    });
+    tbody.innerHTML = ''; // Clear the table body
+    rows.forEach(row => tbody.appendChild(row)); // Re-append sorted rows
+}
