@@ -1,0 +1,133 @@
+html {
+    background-color:rgb(102, 35, 35);
+	color: antiquewhite;
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+body {
+    max-width: 1225px;
+    margin: auto;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.about-para {
+    width: 868px;
+}
+
+header {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.title-subtitle {
+    position: fixed; 
+    top: 20%;
+    left: 20%;
+    padding-left: 70px;
+}
+
+h1 {
+    position: relative;
+    text-align: center; 
+    font-size: 96px;
+    max-width: 735px;
+    left: 20%;
+}
+
+h2 {
+    position: relative;
+    text-align: center; 
+    font-size: 64px;
+    max-width: 735px;
+    left: 20%;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 172px;
+    color: rgb(240, 222, 161);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.filters {
+    position: relative;
+    text-align: left; 
+    font-size: 32px;
+    max-width: 272px;
+    line-height: 120px;
+}
+
+nav {
+    position: relative;
+    text-align: left; 
+    font-size: 32px;
+    max-width: 272px;
+    line-height: 120px;
+    top: 10%;
+    padding: auto;
+    padding-top: 120px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.tables {
+    text-align: center; /* Center align the tables */
+}
+
+table {
+    width: 80%; /* Set the width of the tables */
+    margin: 0 auto; /* Center align the tables horizontally*/
+    border: 1px solid rgb(255, 229, 144); 
+    padding: auto;
+    border-radius: 3px;
+}
+
+th, td {
+    padding: 10px; /* Increase the padding of each grid item */
+}
+
+th {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(212, 188, 111);
+    color: rgb(5, 90, 5);
+}
+
+button {
+    text-decoration: none;
+    background-color: rgb(172, 43, 43);
+    color: rgb(255, 229, 144);
+    font-family: "Familjen Grotesk", sans-serif;
+    border-radius: 20px;
+    margin: 24px;
+    padding: 8px;
+    font-size: 20px;
+    border:rgb(172, 43, 43)
+}
+
+button:hover {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 64px;
+}
+
+a:hover {
+    font-size: 25px;
+}
+
+marquee {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(172, 43, 43);
+}

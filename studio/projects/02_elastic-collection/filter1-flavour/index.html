@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>College Kid Recipes - Flavour</title>
+	<link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <marquee class="marq" 
+                 direction="right" loop="infinte">
+            <div class="marquee-text">what do i eat? what do i eat? what do i eat?</div>
+        </marquee>
+	<main class="Container">
+        <!--- <img src="background-image.jpg"> --->
+        <header>
+            <p><a href=https://ranjl416.interactive.rodeo/studio/projects/02_elastic-collection/index.html>COLLEGE KID RECIPES</a></p>
+        </header>
+    <div class="heading">
+        <h1>craving something...</h1>
+    </div>
+    <div class="tables">
+        <h2>spicy?</h2>
+        <button onclick="sortTable('spicy', 'cooking_time')">Sort by Cooking Time</button>
+        <button onclick="sortTable('spicy', 'no_of_ingredients')">Sort by Ingredients</button>
+        <table id="spicy"></table>
+        <h2>savoury?</h2>
+        <button onclick="sortTable('savoury', 'cooking_time')">Sort by Cooking Time</button>
+        <button onclick="sortTable('savoury', 'no_of_ingredients')">Sort by Ingredients</button>
+        <table id="savoury"></table>
+        <h2>sweet?</h2>
+        <button onclick="sortTable('sweet', 'cooking_time')">Sort by Cooking Time</button>
+        <button onclick="sortTable('sweet', 'no_of_ingredients')">Sort by Ingredients</button>
+        <table id="sweet"></table>
+        <h2>tangy?</h2>
+        <button onclick="sortTable('tangy', 'cooking_time')">Sort by Cooking Time</button>
+        <button onclick="sortTable('tangy', 'no_of_ingredients')">Sort by Ingredients</button>
+        <table id="tangy"></table>
+    </div>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+	</main>
+    <marquee class="marq" 
+                 direction="right" loop="infinte">
+            <div class="marquee-text">what do i eat? what do i eat? what do i eat?</div>
+        </marquee>
+    <script src="assets/data.js"></script>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
