@@ -96,3 +96,13 @@ marquee {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media screen and (min-width: 480px) and (max-width: 760px) {
+    body {
+        margin: 10px;
+    }
+
+    h1 {
+        
+    }
+  }

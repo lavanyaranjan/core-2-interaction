@@ -21,3 +21,4 @@ function insertDataItem(dataItem) {
 data.forEach((dataItem) => {
     insertDataItem(dataItem);
 });
+
