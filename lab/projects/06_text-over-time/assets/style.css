@@ -1,0 +1,50 @@
+html {
+    background-color: black;
+    color:rgb(214, 244, 212);
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container {
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 65px; 
+    text-align: left;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px; 
+    font-style: normal;
+    font-weight: 400;
+    font-style: italic;
+    color:rgb(198, 233, 196);
+}
+
+.countdown {
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(136, 171, 133);
+}
+
+p {
+    font-size: 60px;
+    color:rgb(198, 233, 196);
+    text-align: center;
+}
