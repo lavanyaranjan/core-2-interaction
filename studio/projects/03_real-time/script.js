@@ -1,6 +1,7 @@
 // Function to fetch data from the API
 async function fetchAirPollutionData(lat, lon, apiKey) {
-  const url = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+  const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+  const apiEndpoint = 'https://api.openweathermap.org/data/2.5/air_pollution';
 
   try {
     const response = await fetch(url);
