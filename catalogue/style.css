@@ -50,6 +50,9 @@ a:hover {
     font-style: bold;
     font-size: 24px;
     z-index: 1;
+    /* background-color: #320000;
+    border-radius: 10px;
+    padding-right: 10px; */
 }
 
 #lab-nav {
@@ -62,6 +65,9 @@ a:hover {
     font-style: bold;
     font-size: 24px;
     z-index: 1;
+    /* background-color: #320000;
+    border-radius: 10px;
+    padding-left: 10px; */
 }
 
 main {
@@ -96,74 +102,3 @@ footer {
     margin-top: 150px;
 }
 
-h1 {
-    position: relative;
-    text-align: center;
-    font-size: 84px;
-    max-width: 940px;
-    /*left: 10%;*/
-    font-family: "Domine", serif;
-}
-
-h2 {
-    position: relative;
-    text-align: center;
-    font-size: 48px;
-    max-width: 735px;
-    left: 10%;
-    font-style: italic;
-    font-weight: 100;
-    font-family: "Domine", serif;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    gap: 0px;
-    padding: 0px;
-    margin: auto;
-    margin-top: 100px;
-    z-index: -1;
-}
-
-.grid-item {
-    padding: 10px;
-    max-width: 100px;
-    z-index: -1;
-}
-
-h3 {
-    /*position: relative;*/
-    text-align: left;
-    font-size: 36px;
-    max-width: 735px;
-    /*left: 20%;*/
-    font-weight: lighter;
-    font-weight: 600;
-    margin-top: 100px;
-}
-
-p {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
-h4 {
-    font-size: 16px;
-    font-weight: lighter;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    font-style: italic;
-    left: 20%;
-    max-width: 750px;
-}
-
-h5 {
-    font-size: 16px;
-    font-weight: lighter;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    left: 20%;
-    max-width: 750px;
-}
